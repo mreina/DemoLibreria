@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #DD5194;" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="btnAutores" contentDisplay="TOP" mnemonicParsing="false" style="-fx-border-color: transparent; -fx-background-color: transparent;" text="AUTORES">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/learning.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnLibros" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" style="-fx-border-color: transparent; -fx-background-color: transparent;" text="LIBROS">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/book.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnSuscriptores" contentDisplay="TOP" layoutX="104.0" layoutY="10.0" mnemonicParsing="false" style="-fx-border-color: transparent; -fx-background-color: transparent;" text="SUSCRIPTORES">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/learning2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnBibliotecarios" contentDisplay="TOP" layoutX="198.0" layoutY="10.0" mnemonicParsing="false" style="-fx-border-color: transparent; -fx-background-color: transparent;" text="BIBLIOTECARIOS">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/studying.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnReportes" contentDisplay="TOP" layoutX="321.0" layoutY="10.0" mnemonicParsing="false" style="-fx-border-color: transparent; -fx-background-color: transparent;" text="REPORTES">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/analytics.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnConfiguracion" contentDisplay="TOP" layoutX="321.0" layoutY="10.0" mnemonicParsing="false" style="-fx-border-color: transparent; -fx-background-color: transparent;" text="CONFIGURACIÓN">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/settings.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+        </items>
+      </ToolBar>
+   </top>
+   <bottom>
+      <Pane prefHeight="34.0" prefWidth="1280.0" style="-fx-background-color: #612667;" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <Pane prefHeight="718.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="300.0" fitWidth="454.0" layoutX="456.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@iconos/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

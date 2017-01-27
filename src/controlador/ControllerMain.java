@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class ControllerMain extends Application {
@@ -15,6 +16,7 @@ public class ControllerMain extends Application {
 		Scene escena = new Scene(root);
 		primaryStage.setScene(escena);
 		primaryStage.setTitle("Libreria Cheshire");
+		primaryStage.getIcons().add(new Image("/vista/iconos/logo.png"));
 		primaryStage.show();
 	}
 	
