@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <Pane prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #62256B;" BorderPane.alignment="CENTER" />
+   </bottom>
+   <right>
+      <Pane prefHeight="285.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="320.0" fitWidth="269.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@iconos/logo.png" />
+               </image>
+            </ImageView>
+            <HBox layoutX="285.0" layoutY="66.0" prefHeight="29.0" prefWidth="231.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/user.png" />
+                     </image>
+                  </ImageView>
+                  <TextField prefHeight="29.0" prefWidth="206.0" promptText="Usuario" style="-fx-border-color: #62256B; -fx-border-radius: 5;" />
+               </children>
+            </HBox>
+            <HBox layoutX="285.0" layoutY="109.0" prefHeight="31.0" prefWidth="235.0">
+               <children>
+                  <ImageView fitHeight="28.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/password.png" />
+                     </image>
+                  </ImageView>
+                  <PasswordField prefHeight="29.0" prefWidth="195.0" promptText="Contraseña" style="-fx-border-color: #62256B; -fx-border-radius: 4;" />
+               </children>
+            </HBox>
+            <Button layoutX="379.0" layoutY="152.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="48.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/lock.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+   </right>
+</BorderPane>
